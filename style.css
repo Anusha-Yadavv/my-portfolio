@@ -43,3 +43,57 @@
     border-width: 0;
 
 }
+.about-me-section{
+    background-color:#323f4b;
+}
+.about-me-section-image{
+    width: 100%;
+}
+.about-me-section-subheading{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    color:#cced00;
+}
+.about-me-section-heading{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 36px;
+    color:white;
+
+}
+.about-me-section-description{
+    font-family: "Roboto";
+    font-size: 20px;
+    color:#9aa5b1;
+
+}
+.skills-section{
+    background-color: #191a1d;
+}
+.skills-card{
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+.skills-card-title{
+    font-family: "Robot";
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    overflow-y: hidden;
+
+
+}
+.skills-card-img{
+    height: 64px;
+    width: 64px;
+}
+.skills-section-sub-heading{
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+    color:#cced00;
+}

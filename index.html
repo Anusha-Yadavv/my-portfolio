@@ -25,7 +25,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand portfolio-logo" href="#">J.</a>
+      <a class="navbar-brand portfolio-logo" href="#">A.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,22 +44,50 @@
       </div>
     </div>
   </nav>
+
+
   <div class="banner-section-bg-container d-flex flex-column justify-content-center">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-5 order-1 order-md-2">
-          <img
+          <!--  <img
             src="https://img.freepik.com/premium-photo/girl-character-cartoon_861875-9054.jpg?size=626&ext=jpg&ga=GA1.1.188783717.1693280456&semt=ais"
-            class="banner-section-image" />
+            class="banner-section-image" />-->
         </div>
         <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
           <h1 class="banner-section-heading mb-3">
             Hey, I am <span class="my-name">Anusha</span>
+
           </h1>
           <p class="banner-section-description mb-3">
-            I am a Frontend Developer
+            A Frontend Developer. Focused on creating <strong>beautiful</strong> and <strong>user friendly</strong>
+            applications while writing <strong>clean</strong> code.
           </p>
-          <button class="custom-button">Contact Me</button>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="custom-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Contact Me
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title my-number" id="exampleModalLabel">My Number</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body number">
+                  9701316784
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="custom-button close-button" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -69,19 +97,36 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6 order-1 order-md-2 d-flex flex-column justify-content-center">
-          <h1 class="about-me-section-subheading mb-3">Facts</h1>
           <h1 class="about-me-section-heading mb-3">About me</h1>
-          <img src="./assets/image.jpeg" class="about-me-section-image d-md-none mb-3" />
+          <img src="./assets/my-img.jpeg" class="about-me-section-image d-md-none mb-3" />
           <p class="about-me-section-description">
-            My name is Anusha,and I am currently looking for a job in Frontend Development. I have a bachelor's degree
-            in Computer Science & Engineering. People find me to be an upbeat, self-motivated team player with excellent
-            communication skills.<br />I am a dedicated
-            person with a family of six. Hardworking and passionate job seeker with strong organizational skills eager
-            to secure entry-level Frontend developer, excellent and adaptability to all kinds of environments.
+            Hi, I am Anusha. I have a bachelor's degree
+            in Computer Science & Engineering. I am currently looking for a job in Frontend Development. <br /> I spend
+            my time on personal projects and learning more about HTML, CSS and Javascript.
+            I'm excited to make the leap and continue refining my skills with the right company.
           </p>
+          <!--Social images-->
+          <div class="social-component">
+            <div class="social-flex d-flex flex-row justify-content-between">
+              <a href="mailto:anu468mjl@gmail.com">
+                <div class="social-image"><img src="./assets/mail.svg" /></div>
+              </a>
+              <a href="#"><div class="social-image"><img src="./assets/linkdin.svg" /></div></a>
+              <a href="#"><div class="social-image"><img src="./assets/github.svg" /></div></a>
+            </div>
+            <a href="#">
+              <div class="social-image mt-4">
+                  <img src="./assets/icons8-download-resume-48 .png">
+  
+  
+              </div>
+          </a>
+           
+          </div>
+
         </div>
         <div class="col-12 col-md-6 order-2 order-md-1 d-none d-md-block">
-          <img src="./assets/image.jpeg" class="about-me-section-image" />
+          <img src="./assets/my-img.jpeg" class="about-me-section-image" />
         </div>
       </div>
     </div>
@@ -142,7 +187,7 @@
         <div class="col-12">
           <h1 class="projects-section-heading">Projects I have done</h1>
         </div>
-        <div class="col-12 pb-5">
+        <div class="col-12 col-md-6 pb-5">
           <div class="shadow projects-card">
             <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png"
               class="projects-card-img" />
@@ -153,6 +198,30 @@
                 Food Munch Website is the best-in-class food ordering page today.
                 With interactive UI/UX and simple call to actions...</p>
               <a class="projects-card-link" href="https://anusha-yadavv.github.io/Food-Munch-Website/">
+                Hey click me :)
+                <svg width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-md-6 pb-5">
+          <div class="shadow projects-card">
+            <img
+              src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NlbHNpdXMtY29udmVydC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ=="
+              class="projects-card-img" />
+            <div class="p-3">
+              <h1 class="projects-card-sub-title mb-3">Web design</h1>
+              <h1 class="projects-card-title">Temperature Converter</h1>
+              <p class="projects-card-description">
+                Temperature Wizard is a web-based temperature calculator application built using HTML, CSS, and
+                JavaScript. It allows users to convert temperatures between different units, such as Celsius,
+                Fahrenheit, and Kelvin.</p>
+              <a class="projects-card-link" href="https://anusha-yadavv.github.io/temperature-converter-website/">
                 Hey click me :)
                 <svg width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd"
@@ -192,7 +261,7 @@
             <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png"
               class="services-card-image" />
             <h1 class="services-card-title mt-2">Responsive Web design</h1>
-            <p class="services-card-description">Responsive Web design is the approach that suggests thst design and
+            <p class="services-card-description">Responsive Web design is the approach that suggests design and
               development should
               respond to the user's behaviour and environment based on screen size,
               platform and orientation</p>
@@ -268,7 +337,7 @@
             </div>
           </div>
           <div class="col-12 col-md-3 mb-3">
-            <h1 class="footer-section-sub-heading">E-mail</h1>
+            <h1 class="footer-section-sub-heading">Email</h1>
             <div>
               <i class="fas fa-envelope icon"></i>
               <span class="footer-section-text ml-2">anu468mjl@gmail.com</span>
@@ -278,7 +347,8 @@
             <h1 class="footer-section-sub-heading">Address</h1>
             <div>
               <i class="fas fa-map-marked-alt  icon"></i>
-              <span class="footer-section-text ml-2">27 Sai suprabath colony, Fathulaguda, Hyderabad, India.</span>
+              <span class="footer-section-text ml-2">Plot No-27 Sai suprabath colony, Fathulaguda, Nagole, Hyderabad,
+                India.</span>
             </div>
           </div>
         </div>

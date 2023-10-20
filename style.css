@@ -4,8 +4,8 @@
     border-width: 2px;
     border-radius: 0px;
     border-color: #4b6cc1;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 900;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
@@ -17,20 +17,23 @@
     
 }
 .banner-section-bg-container{
+    background-image: url("https://s3.amazonaws.com/codementor_content/2015-Aug-week3/portfolio.jpg");
     background-color: #191a1d;
-    height: 50vh;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
 }
 .banner-section-heading{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Roboto";
     font-size: 45px;
     font-weight: 400;
 }
 .my-name{
-    color:#4b6cc1
+    color:#02008d;
 }
 .banner-section-description{
-    color: #9aa5b1;
+    color: #02008d;
     font-size: 24px;
     font-family: "Roboto";
 }
@@ -48,8 +51,26 @@
     
 }
 .about-me-section-image{
-    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #666 #8ebf42;
+  border-image: none;
+  border-radius: 50px 0 50px 0;
+  border-style: solid;
+  border-width: 5px;
+
+    
+    
 }
+img:hover{
+    box-shadow: 0 4px 8px 0 rgb(224, 248, 5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
 .about-me-section-subheading{
     font-family: "Roboto";
     font-weight: bold;
@@ -142,7 +163,7 @@
 .projects-card {
     background-color: #323f4b;
     border-radius: 8px;
-    width: 50%;
+    width: 100%;
 }
 .services-section{
     background-color: #52606d;
@@ -207,9 +228,16 @@
 }
 
 .footer-section-image {
-    width: 60px;
-    height: 60px;
-    border-radius: 40px;
+    border-color: #666 #1c87c9;
+    border-image: none;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 2px;
+    height: 80px;
+    width: 70px;
+    overflow: hidden;
+    
+
 }
 
 .footer-section-sub-heading {
@@ -223,11 +251,58 @@
 .footer-section-text {
     color: #9aa5b1;
     font-family: "Roboto";
-    font-size: 14px;
+    font-size: 15px;
 
 }
 
 .icon {
     color: #5a7184;
     font-size: 18px;
+}
+
+.social-component {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 40px;
+}
+
+.social-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.social-image {
+    
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.title{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.my-number{
+    color: #001b61;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 30px;
+
+}
+.number{
+    color:rgb(0, 0, 0);
+}
+.close-button{
+    width: 70px;
 }

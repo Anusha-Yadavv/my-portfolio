@@ -25,7 +25,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand portfolio-logo" href="#">A.</a>
+      <a class="navbar-brand portfolio-logo a" href="#">A.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,10 +56,22 @@
         </div>
         <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
           <h1 class="banner-section-heading mb-3">
-            Hey, I am <span class="my-name">Anusha</span>
+            Hey <p class="shake d-inline-block">👋</p>, I am
+            <div class="waviy">
+              <span style="--i:1">A</span>
+              <span style="--i:2">n</span>
+              <span style="--i:3">u</span>
+              <span style="--i:4">s</span>
+              <span style="--i:5">h</span>
+              <span style="--i:6">a</span>
+
+
+            </div>
+
+
 
           </h1>
-          <p class="banner-section-description mb-3">
+          <p class="banner-section-description animate-charcter mb-3">
             A Frontend Developer. Focused on creating <strong>beautiful</strong> and <strong>user friendly</strong>
             applications while writing <strong>clean</strong> code.
           </p>
@@ -79,7 +91,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body number">
-                  9701316784
+                  <h1 class="a">9701316784</h1>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="custom-button close-button" data-bs-dismiss="modal">Close</button>
@@ -98,28 +110,34 @@
       <div class="row">
         <div class="col-12 col-lg-6 order-1 order-md-2 d-flex flex-column justify-content-center">
           <h1 class="about-me-section-heading mb-3 mt-3">About me</h1>
-          <img src="./assets/my-img.jpeg" class="about-me-section-image d-md-none mb-3" />
+
+
+
           <p class="about-me-section-description">
             Hi, I am Anusha. I have a bachelor's degree
-            in Computer Science & Engineering. I am currently looking for a job in Frontend Development. <br /> I spend
-            my time on personal projects and learning more about HTML, CSS and Javascript.
-            I'm excited to make the leap and continue refining my skills with the right company.
+            in Computer Science & Engineering. An aspiring frontend developer with a passion for
+            creating dynamic and user-friendly web experiences.I'm eager to launch my career and collaborate with
+            experienced professionals and mentors who can help me grow as a frontend developer. If you're interested in
+            working with a passionate and adaptable newcomer like me, please feel free to contact me at
+            <img src="./assets/icons8-hand-down-64.png" class="hand-icon">:
+
+
           </p>
 
           <!--Social images-->
           <div class="social-component">
             <div class="social-flex d-flex flex-row justify-content-between">
               <a href="anu468mjl@gmail.com">
-                <div class="social-image"><img src="./assets/mail.svg" /></div>
+                <div class="social-image a"><img src="./assets/mail.svg" /></div>
               </a>
               <a href="#">
-                <div class="social-image"><img src="./assets/linkdin.svg" /></div>
+                <div class="social-image a"><img src="./assets/linkdin.svg" /></div>
               </a>
               <a href="#">
-                <div class="social-image"><img src="./assets/github.svg" /></div>
+                <div class="social-image a"><img src="./assets/github.svg" /></div>
               </a>
               <a href="#">
-                <img src="./assets/icons8-download-resume-48 .png" class="resume">
+                <img src="./assets/icons8-download-resume-48 .png" class="resume social-image a">
               </a>
             </div>
 
@@ -127,8 +145,12 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 order-2 order-md-1 d-none d-md-block">
-          <img src="./assets/my-img.jpeg" class="about-me-section-image" />
+          <figure class="swing">
+            <img src="./assets/my-img.jpeg" width="300" class="mb-3" />
+
+          </figure>
         </div>
+
       </div>
     </div>
   </div>
@@ -193,12 +215,15 @@
         </div>
         <div class="col-12 col-lg-6 pb-5">
           <div class="shadow projects-card">
-            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png"
-              class="projects-card-img" />
-            <div class="p-3">
+            <div class="projects-image">
+              <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png"
+                class="projects-card-img shake" />
+            </div>
+
+            <div class="projects-card-description p-3">
               <h1 class="projects-card-sub-title mb-3">Web design</h1>
               <h1 class="projects-card-title">Food Munch Website</h1>
-              <p class="projects-card-description">
+              <p>
                 Food Munch Website is the best-in-class food ordering page today.
                 With interactive UI/UX and simple call to actions...</p>
               <a class="projects-card-link" href="https://anusha-yadavv.github.io/Food-Munch-Website/">
@@ -213,15 +238,23 @@
 
         </div>
 
+
+
+
+
+
         <div class="col-12 col-lg-6 pb-5">
           <div class="shadow projects-card">
-            <img
-              src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NlbHNpdXMtY29udmVydC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ=="
-              class="projects-card-img" />
-            <div class="p-3">
+            <div class="projects-image">
+              <img
+                src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2NlbHNpdXMtY29udmVydC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ=="
+                class="projects-card-img shake temp-img" />
+            </div>
+
+            <div class="projects-card-description p-3">
               <h1 class="projects-card-sub-title mb-3">Web design</h1>
               <h1 class="projects-card-title">Temperature Converter</h1>
-              <p class="projects-card-description">
+              <p>
                 Temperature Wizard is a web-based temperature calculator application built using HTML, CSS, and
                 JavaScript. It allows users to convert temperatures between different units, such as Celsius,
                 Fahrenheit, and Kelvin.</p>
@@ -234,11 +267,15 @@
               </a>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </div>
+
+
+
+
+
 
   <div class="services-section pt-5 pb-5" id="services">
     <div class="container">

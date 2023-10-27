@@ -217,7 +217,7 @@
     font-family: "Roboto";
     font-weight: bold;
     font-size: 36px;
-    color:white;
+    color:#cced00;;
 
 }
 .about-me-section-description{
@@ -272,6 +272,7 @@
   background-color: black;
   min-height : 500px;
   }
+  
   .projects-card{
     position: relative;
   max-width : 400px;
@@ -363,7 +364,7 @@
   
 
   .projects-section-heading{
-    color:white;
+    color:#cced00;
     font-family: "Roboto";
     font-size: 30px;
     font-weight: bold;
@@ -389,6 +390,9 @@
 .services-section{
     background-color:  #323f4b;
     color: #ffffff;
+}
+.services-title{
+  color:#cced00;
 }
 .services-card{
     background-color: #191a1d;
